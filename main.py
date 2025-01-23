@@ -86,7 +86,7 @@ plt.figure(figsize=(10, 6))
 for i in range(0, Nt, Nt // 5):
     plt.plot(np.linspace(0, L, Nx), temperatura_central[i], label=f"t = {i * dt:.1f} s")
 
-plt.title("Evolución de la temperatura en la línea central (con cambio de fase)")
+plt.title("Evolución de la temperatura en la línea central")
 plt.xlabel("Posición (m)")
 plt.ylabel("Temperatura (°C)")
 plt.legend()
